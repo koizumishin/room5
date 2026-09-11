@@ -22,14 +22,8 @@ h1 {
   font-family: 'Zen Old Mincho', serif;
   font-weight: 500;
   font-size: 28px;
-  margin: 0 0 8px;
+  margin: 0 0 48px;
   letter-spacing: 0.02em;
-}
-
-.tagline {
-  color: #767676;
-  font-size: 14px;
-  margin: 0 0 56px;
 }
 
 /* 一覧ページ */
@@ -96,6 +90,54 @@ h1 {
 }
 .listen a {
   color: #181818;
+}
+
+/* メール登録（静かなトーン。ボックス・塗りボタンなし） */
+.subscribe {
+  margin-top: 72px;
+}
+.subscribe p {
+  font-size: 13px;
+  color: #767676;
+  margin: 0 0 12px;
+}
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 360px;
+}
+.subscribe-form input[type="email"] {
+  flex: 1;
+  min-width: 180px;
+  border: none;
+  border-bottom: 1px solid #c9c9c3;
+  background: transparent;
+  padding: 6px 2px;
+  font: inherit;
+  font-size: 14px;
+  color: #181818;
+}
+.subscribe-form input[type="email"]:focus {
+  outline: none;
+  border-bottom-color: #181818;
+}
+.subscribe-form input[type="email"]::placeholder {
+  color: #b7b7b0;
+}
+.subscribe-form button {
+  border: none;
+  border-bottom: 1px solid transparent;
+  background: none;
+  font: inherit;
+  font-size: 13px;
+  color: #767676;
+  cursor: pointer;
+  padding: 6px 2px;
+}
+.subscribe-form button:hover {
+  color: #181818;
+  border-bottom-color: #181818;
 }
 
 .back {

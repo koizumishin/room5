@@ -6,7 +6,7 @@
 <title>第5教室</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/daigokyoshitsu/style.css">
+<link rel="stylesheet" href="/ja/style.css">
 </head>
 <body>
 
@@ -22,16 +22,24 @@
 
 <main class="wrap">
   <h1>第5教室</h1>
-  <p class="tagline">教育を本気で変えようとする少数派に、武器と知恵を。</p>
 
   <ul class="article-list">
     <li class="article-item">
-      <a href="/daigokyoshitsu/articles/_template.html">
+      <a href="/ja/articles/_template.html">
         <span class="a-date">［日付］</span><span class="a-room">［ROOM 001］</span>
         <span class="a-title">［まだ記事はありません。articles/_template.html を複製して最初の記事を追加してください］</span>
       </a>
     </li>
   </ul>
+
+  <div class="subscribe">
+    <p>新しい記事が出たら、知らせてほしい方は。</p>
+    <!-- Buttondown（username: room5）の登録フォーム -->
+    <form class="subscribe-form" action="https://buttondown.com/api/emails/embed-subscribe/room5" method="post" target="_blank">
+      <input type="email" name="email" placeholder="メールアドレス" required>
+      <button type="submit">登録</button>
+    </form>
+  </div>
 
   <p class="back"><a href="/">← room5.org</a></p>
 </main>
